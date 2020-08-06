@@ -39,4 +39,41 @@ This is a type of online learning system where data is too big to fit into compu
 
 11. What type of learning algorithm relies on a similarity measure to make prediction?
 Instance based learning algorithm.
+
+12. What is the difference between a model parameter and a learning algorithm hyperparameter?
+Parameter is parameter of the model (for example what features should we include in our model)
+Hyperparameter is parameter of the algorithm (for example how flexible should algorithm be)
+
+13. What do model-based learning algorithms search for? What is the most common strategy they use do success?
+How do they make predictions?
+Model-based ML algorithm would search for the most optimal values for a given model (like linear regression).
+The most common strategy is to minimise the cost function.
+To make prediction we can feed new data into obtained model.
+
+14. Can you name four of the main challenges in ML?
+-insufficient quantity of data
+-nonrepresantive data/biased data
+-poor quality data
+-using wrong models for a given data (under- and over-fit)
+
+15. If your model performs great on the training data but generalizes poorly to new instances, what is happening?
+Can you name 3 possible solutions?
+The model overfits the data.
+-using simpler models
+-using more data
+-reducing noise in a data
+
+16. What is a test set and why would you want to use it?
+Test set is a subset of the data not used in a training of ML algorithm.
+It is used to check how model performs with unseen data.
+
+17. What is the purpose of a validation set?
+This is a subset of data used to compare different models.
+
+18. What can go wrong if you tune hyperparameters using the test set?
+It can results in over-fitting
+
+19. What is cross-validation and why would you prefer it to a validation set?
+This is technique used to compare different models/check performance of the model without
+splitting data into test/validation set.
 """
